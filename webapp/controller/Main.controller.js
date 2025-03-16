@@ -5,6 +5,9 @@ sap.ui.define([
 
     return Controller.extend("app.project.b.projectb.controller.Main", {
         onInit() {
+        },
+        clickMe() {
+            this.getView().byId('logo_image').setVisible(true);
         }
     });
 });

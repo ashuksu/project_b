@@ -1,6 +1,8 @@
-<mvc:View controllerName="app.project.b.projectb.controller.Main"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="app.project.b.projectb.controller.Main">
+    <Page id="page" title="{i18n>title}" icon="sap-icon://alert">
+    <content>
+        <Image src="https://avatars.githubusercontent.com/u/15161763?v=4" width="140px" height="140px" id="logo_image" alt="logo" visible="false"/>
+        <Button xmlns="sap.m" text="Button Click" id="button0" press="clickMe"/>
+    </content>
     </Page>
 </mvc:View>
