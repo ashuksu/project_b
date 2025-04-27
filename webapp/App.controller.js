@@ -4,7 +4,7 @@ sap.ui.define([
 ], (Controller, MessageToast) => {
 	"use strict";
 
-	return Controller.extend("ui5.quickstart.App", {
+	return Controller.extend("projectb.App", {
 		onPress() {
 			MessageToast.show("Hello App!");
 		}
