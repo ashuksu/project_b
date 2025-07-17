@@ -4,7 +4,8 @@
     "description": "The UI5 project_b tutorial",
     "scripts": {
         "start": "ui5 serve -o index.html",
-        "build": "ui5 build --all"
+        "build": "ui5 build --all",
+        "gh-pages": "cd dist && git add . -f && git commit -am \"Update GH-Pages build $(date +'%F %T')\" || true && git push -u origin gh-pages --force && cd .."
     },
     "devDependencies": {
         "@ui5/cli": "^4.0.21"
