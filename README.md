@@ -1,7 +1,7 @@
 UI5 | SAP Fiori project | from scratch using the Tutorial
 
 
-### Quickstart Tutorial Step 2
+### Quickstart Tutorial Steps: 1, 2, 3
 
 npm install --global @ui5/cli
 
